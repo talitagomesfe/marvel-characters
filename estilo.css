@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+    background-color: rgb(27, 27, 27);
+    border-bottom: 1px solid #bd0101;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    padding: 35px;
+}
+
+
+#marvelChar {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(60%);
+}
+
+#divSearch{
+    width: 600px;
+    height: 50px;
+
+    background-color: lightgray;
+    
+    border: solid 1px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#txtSearch {
+    float: left;
+    width: 400px;
+    height: 40px;
+    
+    background-color: transparent;
+
+    padding-top: 4px;
+    padding-left: 10px;
+
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    border: none;
+}
+
+#imgSearch {
+    width: 30px;
+    height: 30px;
+
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
+    background-color: rgb(27, 27, 27);
+    border-top: 1px solid #bd0101;
+}
+
+#marvelLogo {
+    width: 130px;
+    height: 50px;
+}
