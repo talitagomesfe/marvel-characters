@@ -6,25 +6,29 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <title>Marvel Characters</title>
 </head>
-<body>
 
-    <header>
-        <img id = "marvelCharHeader" src="imgHeader.png" alt="Marvel Characters">
+<body class="l-body">
+    
+    <header class="bars header">
+        <img class="c-header__image" src="imgHeader.png" alt="Marvel Characters">
     </header>
 
-    <main>
-        <div id="divSearch">
-            <input type = "text" id = "txtSearch" placeholder = "Search for a character">
-            <img id = "imgSearch" src="imgSearch.png">
+    <main class="main-container">
+
+        <div class="search">
+            <input type = "text" class="search__box" placeholder = "Search for a character">
+            <img class="search__image" src="imgSearch.png">
         </div>
 
-        <div>
-            <img id = "marvelChar"
+        <div class="character-data">
+            <div class="character-image">Image</div>
+            <div class="character-description">Description</div>
         </div>
+
     </main>
 
-    <footer>
-            <img id= "marvelLogo" src="logoMarvel.png" alt="Logo da Marvel">
+    <footer class="bars footer">
+            <img class= "footer__image" src="logoMarvel.png" alt="Logo da Marvel">
     </footer>
 
 </body>
