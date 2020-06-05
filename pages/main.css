@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-image: url(../marvel-icons.jpg);
+    background-repeat: repeat;
+    background-size: 100px;
+
+}

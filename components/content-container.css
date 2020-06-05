@@ -1,0 +1,45 @@
+.character-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 70%;
+    width: 60%;
+    background-color:rgba(158, 158, 158, 0.25);
+    box-shadow: 0px 8px 10px rgba(2, 2, 2, 0.25);
+}
+.character-data__image {
+  position: relative;
+  width: 40%;
+  height: 70%;
+  margin-right: 40px;
+}
+.character-data__hero-image {
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.character-data__hero-image:hover {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.character-data__description {
+  width: 45%;
+  height: 70%;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  overflow: auto;
+  text-align: center;
+}
+.character-data__description:hover {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.character-data__text {
+  margin: 15px; /*[DÚVIDA] Texto não está centralizado*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
