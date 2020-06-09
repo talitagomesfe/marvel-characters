@@ -4,18 +4,20 @@
     flex-direction: row;
     justify-content: center;
     width: 35%;
-    height: 8%;
+    height: 40px;
 
 }
 .search__box {
     position: relative;
     width: 100%;
-    height: 70%;
+    height: 100%;
     font-size: 20px;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 100px;
     border-style: none;
+
+    padding-left: 20px;
     
     box-shadow: 0 1px 3px rgba(158, 158, 158, 0.25), 0 1px 2px rgba(158, 158, 158, 0.25);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -25,8 +27,8 @@
 }
 .search__image {
     position: absolute; /* [DÚVIDA] Lupa descentralizou*/
-    top: 5px;
-    bottom: 5px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 13px;
     width: 28px;
     height: 28px;
