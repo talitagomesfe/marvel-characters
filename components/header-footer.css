@@ -25,12 +25,12 @@
     border-top: 1px solid #bd0101;
 }
 
-.footer-image {
+.bars-footer__image {
     width: 120px;
     height: 40px;
 }
 
-.footer-info {
+.bars-footer__info {
     width: 20%;
     height: 80%;
 
@@ -40,7 +40,7 @@
 
 }
 
-.footer-text {
+.bars-footer__text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: 14px;
@@ -48,6 +48,7 @@
     text-decoration: none;
 }
 
-a.footer-text:hover {
+.bars-footer__text:hover {
     text-decoration: underline;
+    cursor: pointer;
 }

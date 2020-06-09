@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="components/search.css">
     <link rel="stylesheet" type="text/css" href="components/header-footer.css">
     <link rel="stylesheet" type="text/css" href="components/character-data.css">
+    <link rel="stylesheet" type="text/css" href="components/about-modal.css">
 
     <title>Marvel Characters</title>
 </head>
@@ -24,7 +25,19 @@
     <main class="main-container">
 
         <div class="search">
-            <input type = "text" class="search__box" placeholder = "Search for a character">
+            <input type = "text" class="search__box" placeholder = "Search for a character" list="characters" name="characters">
+            <datalist id="characters">
+                <select name="characters" class="search__box">
+                <option value="Black Widow">
+                <option value="Captain America">
+                <option value="Captain Marvel">
+                <option value="Iron Man">
+                <option value="Hawkeye">
+                <option value="Hulk">
+                <option value="Spider Man">
+                <option value="Thor">
+                </select>
+            </datalist>
             <img class="search__image" src="imgSearch.png">
         </div>
 
@@ -37,12 +50,29 @@
             </div>
         </div>
 
+        <div class="about-modal">
+            <span class="about-modal_close">X</span>
+            <p class="about-modal__text">
+
+                Hi! My name is Talita! </br></br>
+
+                This website was developed by me as a first project working with JavaScript and Front End Development.</br></br>
+
+                Along with <a href="https://github.com/adrianolobodb1" alt="Git Hub User" target="_blank" class="about-modal__link "> Adriano Lobo</a>, a great Front End developer and which was my mentor in this project, we were able to create a simple landing page that allows the user to search for a Marvel character and our website will return simple information on that specific character through Marvel's API.</br></br></br></br>
+
+                
+
+                <span class="about-modal__footer"> love only. 🌹</span> 
+
+            </p>
+        </div>
+
     </main>
 
     <footer class="bars bars_footer">
-        <div class="footer-info">
-            <a href= "" class="footer-text">About</a>
-            <img class= "footer-image" src="logoMarvel.png" alt="Logo da Marvel">
+        <div class="bars-footer__info">
+            <span class="bars-footer__text">About</span>
+            <img class= "bars-footer__image" src="logoMarvel.png" alt="Logo da Marvel">
             <span></span>
         </div>
     </footer>
