@@ -1,3 +1,3 @@
 # Marvel Characters
 
-Buscando personagens da Marvel \õ/
+Searching for Marvel Characters can be pretty fun.
