@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     
     <link rel="stylesheet" type="text/css" href="pages/main.css">
     <link rel="stylesheet" type="text/css" href="layout/general.css">
@@ -12,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="components/header-footer.css">
     <link rel="stylesheet" type="text/css" href="components/character-data.css">
     <link rel="stylesheet" type="text/css" href="components/about-modal.css">
+
+    <link rel="icon" type="image/png" href="marvel-favicon.png"/>
 
     <title>Marvel Characters</title>
 </head>
@@ -25,30 +26,31 @@
     <main class="main-container">
 
         <div class="search">
-            <input type = "text" class="search__box" placeholder = "Search for a character" list="characters" name="characters">
-            <datalist id="characters">
                 <select name="characters" class="search__box">
-                <option value="Black Widow">
-                <option value="Captain America">
-                <option value="Captain Marvel">
-                <option value="Iron Man">
-                <option value="Hawkeye">
-                <option value="Hulk">
-                <option value="Spider Man">
-                <option value="Thor">
+                <option selected value="">Select your hero</option>
+                <option value="1009189">Black Widow</option>
+                <option value="1009220">Captain America</option>
+                <option value="1010338">Captain Marvel</option>
+                <option value="1009368">Iron Man</option>
+                <option value="1009338">Hawkeye</option>
+                <option value="1009351">Hulk</option>
+                <option value="1009610">Spider-Man</option>
+                <option value="1009664">Thor</option>
                 </select>
-            </datalist>
             <img class="search__image" src="imgSearch.png">
         </div>
 
         <div class="character-data">
             <div class="character-data__image">
-                <img class="character-data__hero-image" src="heroes-silhouette.gif">
+                <div class="character-data__hero-image" style= "background-image: url('heroes-silhouette.gif')"></div>
             </div>
             <div class="character-data__description">
-                <p class="character-data__text"></p>
+                <p class="character-data__text">“I still believe in heroes.” </br>
+                    – Nick Fury</br> (Avengers Assemble, 2012)</p>
             </div>
         </div>
+
+        <div class="overlay-modal"></div>
 
         <div class="about-modal">
             <span class="about-modal_close">X</span>
@@ -60,13 +62,12 @@
 
                 Along with <a href="https://github.com/adrianolobodb1" alt="Git Hub User" target="_blank" class="about-modal__link "> Adriano Lobo</a>, a great Front End developer and which was my mentor in this project, we were able to create a simple landing page that allows the user to search for a Marvel character and our website will return simple information on that specific character through Marvel's API.</br></br></br></br>
 
-                
+                    
 
                 <span class="about-modal__footer"> love only. 🌹</span> 
 
             </p>
-        </div>
-
+        </div>   
     </main>
 
     <footer class="bars bars_footer">

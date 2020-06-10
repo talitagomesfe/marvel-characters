@@ -15,7 +15,7 @@
 }
 .search__box {
     position: relative;
-    width: 82%;
+    width: 88%;
     height: 100%;
     font-size: 20px;
     font-style: italic;
@@ -31,7 +31,7 @@
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .search__image {
-    position: absolute; /* [DÚVIDA] Lupa descentralizou*/
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 13px;

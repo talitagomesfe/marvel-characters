@@ -18,6 +18,10 @@
   height: 40px;
 }
 
+.header-image:hover {
+    cursor: pointer;
+}
+
 .bars.bars_footer {
     display: flex;
     justify-content: center;
