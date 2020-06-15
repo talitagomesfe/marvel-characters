@@ -9,15 +9,25 @@
     background-color:rgba(158, 158, 158, 0.25);
     box-shadow: 0px 8px 10px rgba(2, 2, 2, 0.25);
 }
+@media (max-width: 768px) {
+  .character-data {
+    flex-direction: column;
+  }
+}
 .character-data__image {
   position: relative;
   width: 40%;
   height: 70%;
   margin-right: 40px;
 }
+@media (max-width: 768px) {
+  .character-data__image {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
 .character-data__hero-image {
   border-radius: 20px;
-  position: absolute;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -28,6 +38,9 @@
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .character-data__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 45%;
   height: 70%;
   background-color: rgb(56, 56, 56);
@@ -38,10 +51,15 @@
   overflow: auto;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .character-data__description {
+    width: 100%;
+  }
+}
 .character-data__description:hover {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .character-data__text {
-  margin: 15px; /*[DÚVIDA] Texto não está centralizado*/
+  margin: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

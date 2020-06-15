@@ -9,16 +9,17 @@
     $headerImage.onclick = function reload() {
 
         $characterImage.style.backgroundImage =  "url('heroes-silhouette.gif')";
-        $characterDescription.innerText = `“I still believe in heroes.” </br>
-        – Nick Fury</br> (Avengers Assemble, 2012)`;
+        $characterDescription.innerText = `“I still believe in heroes.”
+        – Nick Fury (Avengers Assemble, 2012)`;
+        $searchBox.value = "";
     }
 
     $searchImage.onclick = function changeHero() {
 
         if ($searchBox.value == "") {
             $characterImage.style.backgroundImage =  "url('heroes-silhouette.gif')";
-            $characterDescription.innerText = `“I still believe in heroes.” </br>
-            – Nick Fury</br> (Avengers Assemble, 2012)`;
+            $characterDescription.innerText = `“I still believe in heroes.” 
+            – Nick Fury (Avengers Assemble, 2012)`;
         } else {
         fetch(`http://gateway.marvel.com/v1/public/characters/${$searchBox.value}?ts=1&apikey=1df8f0e5fa9e43663d12ebde36bd3845&hash=121642fd9539338acb713a221380db01`).then(function (response) {
             return response.json();
@@ -42,27 +43,21 @@
     let $modalCloser = document.querySelector(".about-modal_close")
     let $overlayModal = document.querySelector(".overlay-modal")
      
-    $footerAboutText.onclick = function openModal() {
-        $aboutModal.style.display = "block";
+    function openModal() {
+        $aboutModal.style.display = "flex";
         $overlayModal.style.display = "block";
     }
-    
-    $modalCloser.onclick = function closeModal() {
-        $aboutModal.style.display = "none";
-        $overlayModal.style.display = "none";
-    }
 
-    $overlayModal.onclick = function closeModal() {
+    $footerAboutText.onclick = openModal
+
+    function closeModal() {
         $aboutModal.style.display = "none";
         $overlayModal.style.display = "none";
     }
+    
+    $modalCloser.onclick = closeModal
+
+    $overlayModal.onclick = closeModal
+    
 
 })();
-
-/* 
-
-Line 48 - não está setando modal para display none quando clica na janela fora do modal
-
-Input datalist - a setinha não está alinhada bonitinha
-
-*/

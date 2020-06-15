@@ -30,21 +30,23 @@
 }
 
 .bars-footer__image {
+    margin-left: 10px;
     width: 120px;
     height: 40px;
 }
 
 .bars-footer__info {
-    width: 20%;
+    width: 100%;
     height: 80%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
 
 .bars-footer__text {
+    margin-right: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: 14px;
