@@ -5,6 +5,7 @@
     let $searchImage = document.querySelector(".search__image")
     let $characterImageBox = document.querySelector(".character-data__image")
     let $headerImage = document.querySelector(".header-image")
+    let $heroName = document.querySelector(".character-data__hero-name")
 
     $headerImage.onclick = function reload() {
 
@@ -21,16 +22,22 @@
             $characterDescription.innerText = `“I still believe in heroes.” 
             – Nick Fury (Avengers Assemble, 2012)`;
         } else {
-        fetch(`http://gateway.marvel.com/v1/public/characters/${$searchBox.value}?ts=1&apikey=1df8f0e5fa9e43663d12ebde36bd3845&hash=121642fd9539338acb713a221380db01`).then(function (response) {
+        fetch(`https://gateway.marvel.com/v1/public/characters/${$searchBox.value}?ts=1&apikey=1df8f0e5fa9e43663d12ebde36bd3845&hash=121642fd9539338acb713a221380db01`).then(function (response) {
             return response.json();
         }).then(function (data){
 
             let heroThumbnail = data.data.results[0].thumbnail;
+
+            let heroName = data.data.results[0].name;
             
             $characterImage.style.backgroundImage = `url(${heroThumbnail.path}.${heroThumbnail.extension})`;
             $characterImageBox.style.border = "black";
+            $heroName.innerText = heroName;
+
+            
 
             $characterDescription.innerText = data.data.results[0].description;
+            $characterDescription.style.fontSize = "17px";
             if ($characterDescription.innerText == "") {
                 $characterDescription.innerText = "This hero description is not available at Marvel's API right now.";
             }
