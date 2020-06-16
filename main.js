@@ -29,9 +29,14 @@
             let heroThumbnail = data.data.results[0].thumbnail;
 
             let heroName = data.data.results[0].name;
+
+            let heroImage = `url(${heroThumbnail.path}.${heroThumbnail.extension})`;
+
+            heroImage.replace("http", "https");
             
-            $characterImage.style.backgroundImage = `url(${heroThumbnail.path}.${heroThumbnail.extension})`;
-            $characterImageBox.style.border = "black";
+            $characterImage.style.backgroundImage = heroImage;
+
+
             $heroName.innerText = heroName;
 
             
