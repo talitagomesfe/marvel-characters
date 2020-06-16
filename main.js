@@ -32,18 +32,11 @@
 
             let heroImage = `url(${heroThumbnail.path}.${heroThumbnail.extension})`;
 
-            console.log(heroImage);
-
             heroImage = heroImage.replace("http", "https");
-
-            console.log(heroImage);
             
             $characterImage.style.backgroundImage = heroImage;
 
-
             $heroName.innerText = heroName;
-
-            
 
             $characterDescription.innerText = data.data.results[0].description;
             $characterDescription.style.fontSize = "17px";
