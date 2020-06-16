@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-star;
   width: 45%;
   height: 70%;
   background-color: rgb(56, 56, 56);
@@ -54,6 +54,7 @@
 }
 @media (max-width: 768px) {
   .character-data__description {
+    justify-content: flex-start;
     width: 100%;
   }
 }
@@ -64,13 +65,14 @@
 .character-data__hero-name-area {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 20%;
 }
 
 .character-data__hero-name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 21px;
+  font-size: 1.2em;
 }
 
 .character-data__text-area {
@@ -82,8 +84,9 @@
   width: 100%;
 }
 .character-data__text {
-  width: 90%;
-  margin: 0px;
-  font-size: 20px;
+  width: 80%;
+  font-size: 0.9em;
+  margin-left: 2px;
+  margin-right: 2px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

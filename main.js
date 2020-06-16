@@ -13,6 +13,7 @@
         $characterDescription.innerText = `“I still believe in heroes.”
         – Nick Fury (Avengers Assemble, 2012)`;
         $searchBox.value = "";
+        $heroName.innerText = "Select a hero";
     }
 
     $searchImage.onclick = function changeHero() {
@@ -21,6 +22,7 @@
             $characterImage.style.backgroundImage =  "url('heroes-silhouette.gif')";
             $characterDescription.innerText = `“I still believe in heroes.” 
             – Nick Fury (Avengers Assemble, 2012)`;
+            $heroName.innerText = "Select a hero";
         } else {
         fetch(`https://gateway.marvel.com/v1/public/characters/${$searchBox.value}?ts=1&apikey=1df8f0e5fa9e43663d12ebde36bd3845&hash=121642fd9539338acb713a221380db01`).then(function (response) {
             return response.json();
@@ -39,10 +41,9 @@
             $heroName.innerText = heroName;
 
             $characterDescription.innerText = data.data.results[0].description;
-            $characterDescription.style.fontSize = "17px";
             if ($characterDescription.innerText == "") {
                 $characterDescription.innerText = "This hero description is not available at Marvel's API right now.";
-            }
+            } 
         });
         }      
     } 
