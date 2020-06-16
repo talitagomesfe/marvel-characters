@@ -32,7 +32,11 @@
 
             let heroImage = `url(${heroThumbnail.path}.${heroThumbnail.extension})`;
 
-            heroImage.replace("http", "https");
+            console.log(heroImage);
+
+            heroImage = heroImage.replace("http", "https");
+
+            console.log(heroImage);
             
             $characterImage.style.backgroundImage = heroImage;
 
