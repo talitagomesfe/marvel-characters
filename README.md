@@ -23,7 +23,7 @@ Os itens praticados foram:
 
  - Flex Box
  - Imagens responsivas
- - Conexão com API usando JavaScript e Promises
+ - Conexão de API usando JavaScript e Promises
  - Metodologia B.E.M
  - Posicionamento com CSS
  - Elementos responsivos
