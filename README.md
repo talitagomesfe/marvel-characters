@@ -14,6 +14,7 @@ The items practiced were:
  - Responsive elements
  - CSS Specificity
  - Modals
+ - D.O.M Manipulation with JavaSript
 
 ![brazil-flag-favicon](https://i.imgur.com/5R3DqRQ.png)
 
@@ -29,6 +30,4 @@ Os itens praticados foram:
  - Elementos responsivos
  - Especificidade com CSS
  - Modais
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjExODQyNzksOTc3NTA0MDddfQ==
--->
+ - Manipulação do D.O.M utilizando JavaScript
