@@ -11,8 +11,8 @@ The items practiced were:
  - CSS Positioning
  - Responsive elements
  - CSS Specificity
- - Mo
+ - Modals
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MTc3NzM4LC00ODUwMjc1NDUsLTk3OT
-AzODY1MV19
+eyJoaXN0b3J5IjpbLTE5MjYxNjMxOTQsLTQ4NTAyNzU0NSwtOT
+c5MDM4NjUxXX0=
 -->
