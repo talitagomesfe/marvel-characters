@@ -7,14 +7,14 @@ This webpage is my first project working with Front End Development. In here I p
 The items practiced were:
 
  - Flex Box
- - Responsive images
- - API connection with JavaScript Promises
- - B.E.M Methodology
- - CSS Positioning
  - Responsive elements
+ - CSS Positioning
+ - Responsive images
+ - B.E.M Methodology
  - CSS Specificity
- - Modals
+ - API connection with JavaScript Promises
  - D.O.M Manipulation with JavaSript
+ - Modals
 
 ![brazil-flag-favicon](https://i.imgur.com/5R3DqRQ.png)
 
@@ -23,11 +23,11 @@ Essa página é meu primeiro projeto trabalhando com desenvolvimento Front End. 
 Os itens praticados foram:
 
  - Flex Box
- - Imagens responsivas
- - Conexão de API usando JavaScript e Promises
- - Metodologia B.E.M
- - Posicionamento com CSS
  - Elementos responsivos
+ - Posicionamento com CSS
+ - Imagens responsivas
+ - Metodologia B.E.M
  - Especificidade com CSS
- - Modais
+ - Conexão de API usando JavaScript e Promises
  - Manipulação do D.O.M utilizando JavaScript
+ - Modais
