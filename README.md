@@ -10,6 +10,7 @@ The items practiced were:
  - B.E.M Methodology
  - CSS Positioning
  - Responsive elements
+ - CSS Specificity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTAzODY1MV19
+eyJoaXN0b3J5IjpbLTQ4NTAyNzU0NSwtOTc5MDM4NjUxXX0=
 -->
