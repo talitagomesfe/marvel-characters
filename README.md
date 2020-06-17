@@ -23,13 +23,13 @@ Os itens praticados foram:
 
  - Flex Box
  - Imagens responsivas
- - Conexão API with JavaScript Promises
- - B.E.M Methodology
- - CSS Positioning
- - Responsive elements
- - CSS Specificity
- - Modals
+ - Conexão com API usando JavaScript e Promises
+ - Metodologia B.E.M
+ - Posicionamento com CSS
+ - Elementos responsivos
+ - Especificidade com CSS
+ - Modais
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQyNjE0OTAsLTM3MjQxNDc2NSwtMT
-YxMTE1NTUzOCwtMTI0NjE2MjIwNl19
+eyJoaXN0b3J5IjpbOTc3NTA0MDcsLTM3MjQxNDc2NSwtMTYxMT
+E1NTUzOCwtMTI0NjE2MjIwNl19
 -->
