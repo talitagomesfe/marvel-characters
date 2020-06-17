@@ -30,5 +30,5 @@ Os itens praticados foram:
  - Especificidade com CSS
  - Modais
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3NTA0MDddfQ==
+eyJoaXN0b3J5IjpbLTE1NjExODQyNzksOTc3NTA0MDddfQ==
 -->
