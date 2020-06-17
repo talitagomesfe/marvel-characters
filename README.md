@@ -12,7 +12,3 @@ The items practiced were:
  - Responsive elements
  - CSS Specificity
  - Modals
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYxNjMxOTQsLTQ4NTAyNzU0NSwtOT
-c5MDM4NjUxXX0=
--->
