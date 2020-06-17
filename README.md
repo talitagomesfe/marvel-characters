@@ -17,19 +17,19 @@ The items practiced were:
 
 ![brazil-flag-favicon](https://i.imgur.com/5R3DqRQ.png)
 
-Essa página é meu primeiro projeto trabalhando com desenvolvimento Front End. Aqui eu coloquei em prática pment. In here I put in practice some concepts which I have been studying for a while now. There is still a lot to improve but it's my start. :slightly_smiling_face:
+Essa página é meu primeiro projeto trabalhando com desenvolvimento Front End. Aqui eu coloquei em prática alguns conceitos os quais eu venho estudando de um tempo para cá. Ainda tenho muito o que melhorar mas é o meu "start". :slightly_smiling_face:
 
-The items practiced were:
+Os itens praticados foram:
 
  - Flex Box
- - Responsive images
- - API connection with JavaScript Promises
+ - Imagens responsivas
+ - Conexão API with JavaScript Promises
  - B.E.M Methodology
  - CSS Positioning
  - Responsive elements
  - CSS Specificity
  - Modals
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkyMTIyNjYsLTM3MjQxNDc2NSwtMT
+eyJoaXN0b3J5IjpbLTE2MDQyNjE0OTAsLTM3MjQxNDc2NSwtMT
 YxMTE1NTUzOCwtMTI0NjE2MjIwNl19
 -->
