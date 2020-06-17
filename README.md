@@ -29,3 +29,6 @@ Os itens praticados foram:
  - Elementos responsivos
  - Especificidade com CSS
  - Modais
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTc3NTA0MDddfQ==
+-->
