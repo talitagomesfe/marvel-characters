@@ -1,3 +1,15 @@
-# Marvel Characters
+![Marvel Characters](https://i.imgur.com/PKxWKhe.png)
 
-Searching for Marvel Characters can be pretty fun.
+This webpage is my first project working with Front End Development. In here I put in practice some concepts which I have been studying for a while now. There is still a lot to improve but it's my start. :slightly_smiling_face:
+
+The items practiced were:
+
+ - Flex Box
+ - Responsive images
+ - API connection with JavaScript Promises
+ - B.E.M Methodology
+ - CSS Positioning
+ - Responsive elements
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk3OTAzODY1MV19
+-->
