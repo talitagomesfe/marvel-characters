@@ -17,7 +17,7 @@ The items practiced were:
 
 ![brazil-flag-favicon](https://i.imgur.com/5R3DqRQ.png)
 
-Essa página é meu primeiro projoject working with Front End Development. In here I put in practice some concepts which I have been studying for a while now. There is still a lot to improve but it's my start. :slightly_smiling_face:
+Essa página é meu primeiro projeto trabalhando com desenvolvimento Front End. Aqui eu coloquei em prática pment. In here I put in practice some concepts which I have been studying for a while now. There is still a lot to improve but it's my start. :slightly_smiling_face:
 
 The items practiced were:
 
@@ -30,6 +30,6 @@ The items practiced were:
  - CSS Specificity
  - Modals
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NDcwMDIxLC0zNzI0MTQ3NjUsLTE2MT
-ExNTU1MzgsLTEyNDYxNjIyMDZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTkyMTIyNjYsLTM3MjQxNDc2NSwtMT
+YxMTE1NTUzOCwtMTI0NjE2MjIwNl19
 -->
