@@ -1,4 +1,4 @@
-Check the project right here: https://camziee.github.io
+Check the project right here/Veja o projeto aqui: https://camziee.github.io
 
 ![Marvel Characters](https://i.imgur.com/PKxWKhe.png)
 
